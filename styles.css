@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;900&family=Roboto:wght@400;500;700&display=swap');
+
+nav {
+  display: flex;
+  /* width: 1368px; */
+  padding: 16px 120px;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--backgrounds-bg-orange-10, #ede3da);
+  box-shadow: 0px 1.9932421445846558px 1.2400546073913574px 0px
+      rgba(0, 0, 0, 0.02),
+    0px 4.528800010681152px 3.0655105113983154px 0px rgba(0, 0, 0, 0.02),
+    0px 7.882175445556641px 5.7285847663879395px 0px rgba(0, 0, 0, 0.03),
+    0px 12.521552085876465px 9.639091491699219px 0px rgba(0, 0, 0, 0.04),
+    0px 19.31982421875px 15.521984100341797px 0px rgba(0, 0, 0, 0.04),
+    0px 30.14707374572754px 24.8353271484375px 0px rgba(0, 0, 0, 0.05),
+    0px 50.048828125px 41.234458923339844px 0px rgba(0, 0, 0, 0.05),
+    0px 100px 80px 0px rgba(0, 0, 0, 0.07);
+}
+
+.zara-logo {
+  display: flex;
+  width: 180px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.nav-links {
+  text-decoration: none;
+  display: flex;
+align-items: flex-start;
+gap: 34px;
+}
+.nav-btn{
+    color: var(--font-color-primary, #3C3A36);
+/* button/header */
+font-family: 'Inter', sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+padding: 8px 12px;
+align-items: center;
+gap: 12px;
+border-radius: 4px;
+background: var(--backgrounds-bg-orange-10, #ede3da);
+}
+.nav-btn:hover{
+    background: var(--backgrounds-bg-orang-20, #E2CEBC);
+    cursor: pointer;
+}
+.collections-btn{
+    background-color: inherit;
+    border: none;
+    cursor: pointer;
+}
